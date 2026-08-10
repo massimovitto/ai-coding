@@ -8,7 +8,8 @@ const statusBadge = document.getElementById('status-badge');
 
 // 2. Elegir el modelo (el "cerebro"). Usaremos Llama-3, que es muy potente y ligero.
 
-const selectedModel = "Llama-3-8B-Instruct-q4f32_1-MLC"; // ORIGINAL
+const selectedModel = "Llama-3.2-1B-Instruct-q4f32_1-MLC"; // Ultra ligero, descarga rapidísimo en móviles
+
  
 
 let engine; // Aquí vivirá el motor de nuestra IA
